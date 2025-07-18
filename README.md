@@ -102,12 +102,6 @@ This project aims to **combine knowledge graphs and large language models (LLMs)
 - **Result Dashboard:** Summary of scores, data export.
 - **LLM Abstraction:** Easily swap cloud and local LLMs via LangChain.
 
-### **What's Not Included** ❌
-- Clinical hazard/risk analysis
-- Automated service/intervention recommendations
-- Medical device integration
-- Multi-user management (MVP: single user at a time)
-
 ---
 
 ## 🌐 **Knowledge Graph Design**
@@ -143,14 +137,6 @@ HAS_OPTION:     Question → Answer (available responses)
 4. **Answer Extraction:** LLM parses response and assigns a structured score using criteria from the graph.
 5. **Progress Tracking:** Visual progress bar, status messages, and ability to resume.
 6. **Results Summary:** Final dashboard with total scores, per-domain breakdown, and export options (CSV/JSON).
-
----
-
-## 🚀 **Future Directions**
-- Add multi-hop reasoning or intervention suggestions from the KG
-- Support more assessments (MMSE, MoCA, custom flows)
-- Enable secure, multi-user support and audit trails
-- Research bidirectional KG-LLM updates (e.g., KG enrichment from new responses)
 
 ---
 
